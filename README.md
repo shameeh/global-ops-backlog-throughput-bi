@@ -102,24 +102,24 @@ RETURN DIVIDE(SlaMet, TotalClosed)
 
 🔐 Row-Level Security (RLS)
 Four RLS roles were implemented, allowing region-specific access:
-Region_UK → sees only UK data
-Region_US → sees only US data
-Region_DE → sees only DE data
-Region_IN → sees only IN data
+    Region_UK → sees only UK data
+    Region_US → sees only US data
+    Region_DE → sees only DE data
+    Region_IN → sees only IN data
 
 🤖 Synthetic Data Generation (Python)
-All datasets were created using Python (Pandas & Numpy) by simulating:
-Work order creation
-SLA assignment
-Completion times
-Backlog snapshots
-Daily throughput per engineer
+    All datasets were created using Python (Pandas & Numpy) by simulating:
+    Work order creation
+    SLA assignment
+    Completion times
+    Backlog snapshots
+    Daily throughput per engineer
 
 This ensures:
-No confidential data
-Realistic operational patterns
-Safe for public/portfolio use
-Full code is available on request.
+    No confidential data
+    Realistic operational patterns
+    Safe for public/portfolio use
+    Full code is available on request.
 
 📬 Contact
 If you'd like to connect, discuss the model, or collaborate:
