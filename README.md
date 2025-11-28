@@ -20,45 +20,6 @@ What the daily throughput trend looks like
 Whether cycle time is worsening or improving
 This Power BI project answers those questions through a clean, enterprise-grade reporting model.
 
-🧱 Data Model (Star Schema)
-         Dim_Date
-            │
-            │
-Dim_Regions ─ Fact_WorkOrders ─ Dim_Engineers
-            │
-            └── Dim_SLA
-
-Fact_BacklogHistory (by region & day)
-Fact_DailyThroughput (by engineer & day)
-This enables:
-Clean filtering
-Cross-visual interactions
-Accurate time intelligence
-Region/engineer drilldowns
-
-
-📁Repository Structure
-global-ops-backlog-throughput-bi/
-│
-├── data/                    # synthetic CSVs
-│   ├── work_orders.csv
-│   ├── engineers.csv
-│   ├── regions.csv
-│   ├── sla_definitions.csv
-│   ├── backlog_history.csv
-│   └── daily_throughput.csv
-│
-├── pbix/
-│   └── global_ops_backlog_throughput.pbix
-│
-├── screenshots/
-│   ├── overview_page.png
-│   ├── backlog_page.png
-│   └── productivity_page.png
-│
-└── README.md
-
-
 🔧 Tools & Technologies
 Power BI
 Power Query (M language)
